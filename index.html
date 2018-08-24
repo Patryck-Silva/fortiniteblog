@@ -5,45 +5,44 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
-
+ 
       <title>Página Inicial</title>
 
       <!-- Bootstrap core CSS -->
       <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="imagens/favicon.ico" rel="shortcut icon">
       <style type="text/css"> 
       .jumbotron{
         background-image: url(imagens/imagempadrao.jpg);
+        width: 100%;
+        height: 700px;
       }
+      hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid #FFDF00;
+    margin: 1em 0;
+    padding: 0; 
+}
+.center {
+    margin: auto;
+    width: 70%;
+}
       </style>
     </head>
 
     <body class="bg-light">
       <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-      <a href="#" class="navbar-left"><img src="imagens/icone.png"></a>
-    <a class="navbar-brand mx-2" href="index.html">Página Incial</a>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #41d3f4;">
+      <a href="#" class="navbar-left"><img src="imagens/icone.jpg"></a>
+    <a class="navbar-brand mx-2" href="index.html">Página Inicial</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Navegue
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="cadastro.html">Cadastre-se</a>
-            <a class="dropdown-item" href="carrinho.html">Seu carrinho</a>
-            <a class="dropdown-item" href="compra.html">Compre</a>
-            <a class="dropdown-item" href="login.html">Login</a>
-            <a class="dropdown-item" href="compre2.html">Adquira também</a>
-            <a class="dropdown-item" href="pagamento.html">Opções de pagamento</a>
-          </div>
-        </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -57,25 +56,46 @@
 <div class="container-fluid">
   <div class="row"> 
     <div class="col">
-      <h5><span style="background-color: red" ;>ULTIMOS ARTIGOS</span></h5>
-      <hr class="my-4" style="background-color:yellow; height: 3px;">
+      <h5 style="color: #41d3f4;">ULTIMOS ARTIGOS</h5>
+      <hr class="my-4" style="color:yellow;">
       <div class="row">
       <div class="col">
-        <img src="imagens/atemporalestagio.jpg">
-      <h5>FORTNITE SKIN</h5>
+      <a href="noticia1.html"><img src="imagens/thumb1.jpg"></a>
+       <h5 class="my-2">Intrépido e nobre.</h5>
       <span class="font-weight-bold">Rick</span> August 24, 2018
       <p class="lead">
-        Aliquam erat volutpat. Curabitur dolor sem, fringilla vel rhoncus in, facilisis at enim. Quisque sagittis rutrum volutpat. Nunc tincidunt ut nisi nec egestas. Sed non metus sit amet nisl ultricies semper eget quis erat. Donec finibus efficitur augue, et sodales enim ultricies at. Sed non rhoncus odio. Etiam nibh nisi, ultricies sed neque pulvinar, porta convallis odio.
+        Novo conjunto Bushido já na loja!
+      </p>
+      <a href="noticia2.html"><img src="imagens/thumb3.jpg"></a>
+       <h5 class="my-2">Magnus</h5>
+      <span class="font-weight-bold">Rick</span>  August 24, 2018
+      <p class="lead">
+       Conquiste o Norte com o novo Magnus e os trajes nórdicos!
+
       </p>
       </div>
       <div class="col">
-        <img src="imagens/atemporalestagio.jpg">
-      <h5>FORTNITE SKIN</h5>
-      <span class="font-weight-bold">Rick</span> August 24, 2018
+       <a href="noticia2.html"><img src="imagens/thumb2.jpg"></a>
+       <h5 class="my-2">Magnus</h5>
+      <span class="font-weight-bold">Rick</span>  August 24, 2018
       <p class="lead">
-        Aliquam erat volutpat. Curabitur dolor sem, fringilla vel rhoncus in, facilisis at enim. Quisque sagittis rutrum volutpat. Nunc tincidunt ut nisi nec egestas. Sed non metus sit amet nisl ultricies semper eget quis erat. Donec finibus efficitur augue, et sodales enim ultricies at. Sed non rhoncus odio. Etiam nibh nisi, ultricies sed neque pulvinar, porta convallis odio.
+       Conquiste o Norte com o novo Magnus e os trajes nórdicos!
+
+      </p>
+      <a href="noticia2.html"><img src="imagens/thumb4.jpg"></a>
+       <h5 class="my-2">A Season 5 de Fortnite</h5>
+    <span class="font-weight-bold">Rick</span>  August 24, 2018
+      <p class="lead">
+        Está ao virar da esquina, introduzindo novos rankings e um novo conjunto de recompensas que os jogadores poderão desbloquear durante o Verão.
       </p>
       </div>
+    </div>
+    <div class="row center">
+      <a href="noticia2.html"><img src="imagens/thumb5.jpg" ></a>
+      <h5 class="my-2">A segurança da sua conta é prioridade!</h5>
+      <p class="lead">
+        Proteja sua conta ativando o ADF(Autenticação de Dois Fatores). Como recompensa você recebe um emote novinho em folha pra sua conta do Battle Royale!
+      </p>
     </div>
     </div>
   </div>
